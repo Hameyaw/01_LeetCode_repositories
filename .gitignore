@@ -1,0 +1,27 @@
+# 忽略所有 .log 文件 (日志文件通常很大)
+*.log
+
+# 忽略 node_modules 目录 (前端项目依赖，非常大)
+node_modules/
+
+# 忽略 Python 虚拟环境和缓存
+venv/
+__pycache__/
+*.pyc
+
+# 忽略编译产物 (C++, Java, Go 等)
+build/
+dist/
+*.o
+*.class
+*.exe
+
+# 忽略大型数据文件或特定格式
+*.zip
+*.tar.gz
+data/large_dataset.csv
+
+# 忽略 IDE 配置文件夹 (通常包含大量缓存)
+.idea/
+.vscode/
+*.swp
